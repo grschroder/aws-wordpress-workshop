@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="xUTLwPF7feOlR4_8fToR" name="Page-1">
-        <mxGraphModel dx="2493" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2493" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -43,7 +43,7 @@
                 <mxCell id="34" value="&lt;b&gt;ASG-WP-APP&lt;/b&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;" parent="7" vertex="1">
                     <mxGeometry x="67" y="53" width="78" height="78" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Security group&#10;&#10;allow-ssh&#10;allow-https&#10;allow-http&#10;allow-mysql&#10;allow-vpn&#10;allow-icmp" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" parent="1" vertex="1">
+                <mxCell id="27" value="Security group&#10;&#10;allow-ssh&#10;allow-https&#10;allow-http&#10;allow-mysql&#10;allow-icmp" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" parent="1" vertex="1">
                     <mxGeometry x="-339.99525773195865" y="70.00203389830509" width="140.7216494845361" height="134.4067796610169" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="Public subnet -&amp;nbsp;bastion-subnet (192.168.20.0/24)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
