@@ -7,7 +7,7 @@ resource "aws_eip" "eip-nat-gw-vpc-workshop" {
 
 resource "aws_nat_gateway" "nat-gw-vpc-workshop" {
   allocation_id = aws_eip.eip-nat-gw-vpc-workshop.id
-  subnet_id     = aws_subnet.openvpn-subnet.id
+  subnet_id     = aws_subnet.bastion-subnet.id
 
   tags = {
       Name = "nat-gw-vpc-workshop"

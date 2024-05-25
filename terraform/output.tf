@@ -23,7 +23,7 @@ output "allow_vpn_id" {
 }
 
 output "openvpn_subnet_id" {
-    value = aws_subnet.openvpn-subnet.id
+    value = aws_subnet.bastion-subnet.id
 }
 
 output "public_subnet_alb_a_id" {

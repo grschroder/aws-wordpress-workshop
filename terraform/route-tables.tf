@@ -9,8 +9,8 @@ resource "aws_route_table" "public-route-table-vpc-workshop" {
     }
 }
 
-resource "aws_route_table_association" "public-route-table-assoc-openvpn-subnet" {
-    subnet_id      = aws_subnet.openvpn-subnet.id
+resource "aws_route_table_association" "public-route-table-assoc-bastion-subnet" {
+    subnet_id      = aws_subnet.bastion-subnet.id
     route_table_id = aws_route_table.public-route-table-vpc-workshop.id
 }
 
